@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/index.css">
+  <title>Curso</title>
+</head>
+<body>
+  
+  <section class="Form container">
+    <h1>Olá, vamos continuar com a sua inscrição no curso</h1>
+    <span>Por favor preencha as informações abaixo</span>
+
+    <form>
+      <fieldset>
+      <div class="campo">
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" id="nome" required>
+    </div>
+
+    <div class="campo">
+      <label for="rua"><strong>Rua</strong></label>
+      <input type="text" name="rua" id="rua" >
+    </div>
+
+    <div class="campo">
+      <label for="numero"><strong>Número</strong></label>
+      <input type="number" name="numero" id="numero" >
+    </div>  
+
+   <div class="campo">
+    <label for="bairro"><strong>Bairro</strong></label>
+    <input type="text" name="Bairro" id=" bairro" >
+  </div>
+
+  <div class="campo">
+    <label for="cidade"><strong>Cidade</strong></label>
+    <input type="text" name="nome" id="nome" >
+  </div>    
+
+  <div class="campo">
+    <label for="cep"><strong>CEP</strong></label>
+    <input type="number" name="cep" id="cep">
+  </div>
+
+  <div class="campo">
+    <label for="telefone"><strong>Telefone</strong></label>
+    <input type="tel" name="telefone" id="telefone" required>
+  </div>
+ 
+  <div class="campo">
+    <label for="email"><strong>E-Mail</strong></label>
+    <input type="text" name="email" id="email" required>
+  </div>
+
+  <div>
+    <label for="cor"><strong>Cor</strong></label>
+        <select id="-cor" required>
+          <option selected disabled value="">Selecione</option>
+          <option>Branco</option>
+          <option>Preto</option>
+          <option>Parda</option>
+          <option>Amarela</option>
+          <option>Indigena</option>
+        </select>
+  </div>
+
+</fieldset>
+
+<fieldset>
+  <div class="campo">
+    <label for="nomepai"><strong>Nome do Pai</strong></label>
+    <input type="text" name="nomepai" id="nomepai" required>
+  </div>
+
+  <div class="campo">
+    <label for="datapai"><strong>Data de Nascimento Paix</strong></label>
+    <input type="date" name="datapai" id="datapai" required>
+  </div>
+
+  <div class="campo">
+    <label for="naturalidadepai"><strong>Naturalidade Pai</strong></label>
+    <input type="text" name="naturalidadepai" id="naturalidadepai" >
+  </div>
+
+  <div class="campo">
+    <label for="profissaopai"><strong>Profissão</strong></label>
+    <input type="text" name="profissaopai" id="profissaopai" >
+  </div>
+
+  <div class="campo">
+    <label for="celpai"><strong>Celular</strong></label>
+    <input type="tel" name="celpai" id="celpai" required>
+  </div>
+
+  <div class="campo">
+    <label for="emailpai"><strong>E-Mail</strong></label>
+    <input type="email" name="emailpai" id="emailpai" required>
+  </div>
+
+  <div class="campo">
+    <label for="cpfpai"><strong>CPF</strong></label>
+    <input type="number" name="cpfpai" id="cpfpai" required>
+  </div>
+<div>
+  <label for="-responsavelpai"><strong>É o responsável financeiro?</strong></label>
+  <select id="-responsavelpai" required>
+    <option selected disabled value="">Selecione</option>
+    <option>Sim</option>
+    <option>Não</option>
+  </select>
+</div>
+
+</fieldset>
+
+<fieldset>
+  <div class="campo">
+    <label for="nomemae"><strong>Nome da Mãe</strong></label>
+    <input type="text" name="nomemae" id="nomemae" required>
+  </div>
+
+  <div class="campo">
+    <label for="datamae"><strong>Data de Nascimento Paix</strong></label>
+    <input type="date" name="datapai" id="datapai" required>
+  </div>
+
+  <div class="campo">
+    <label for="naturalidademae"><strong>Naturalidade mae</strong></label>
+    <input type="text" name="naturalidademae" id="naturalidademae" >
+  </div>
+
+  <div class="campo">
+    <label for="profissaomae"><strong>Profissão</strong></label>
+    <input type="text" name="profissaomae" id="profissaomae" >
+  </div>
+
+  <div class="campo">
+    <label for="celmae"><strong>Celular</strong></label>
+    <input type="tel" name="celmae" id="celmae" required>
+  </div>
+
+  <div class="campo">
+    <label for="emailmae"><strong>E-Mail</strong></label>
+    <input type="email" name="emailmae" id="emailmae" required>
+  </div>
+
+  <div class="campo">
+    <label for="cpfmae"><strong>CPF</strong></label>
+    <input type="number" name="cpfmae" id="cpfmae" required>
+  </div>
+<div>
+  <label for="-responsavelmae"><strong>É o responsável financeiro?</strong></label>
+  <select id="-responsavemae" required>
+    <option selected disabled value="">Selecione</option>
+    <option>Sim</option>
+    <option>Não</option>
+  </select>
+</div>
+
+</fieldset>
+
+<fieldset>
+      <div class="campo">
+        <label for="curso"><strong>Nome do Curso</strong></label>
+        <input type="text" name="curso" id="curso" required>
+      </div>
+
+      <div class="campo">
+        <label for="data"><strong>Data de ingresso</strong></label>
+        <input type="date" name="data" id="data" required>
+      </div>
+      
+      <div class="campo">
+        <label for="valor"><strong>Valor</strong></label>
+        <input type="number" name="valor" id="valor" required>
+      </div>
+
+      <div>
+        <label for="pagamento"><strong>Forma de pagamento</strong></label>
+            <select id="-pagamento" required>
+              <option selected disabled value="">Selecione</option>
+              <option>Boleto</option>
+              <option>Cartão de Crédito</option>
+            </select>
+      </div>
+
+      <div>
+        <label for="parcelas"><strong>Quantidade de Parcelas</strong></label>
+            <select id="-parcelas" required>
+              <option selected disabled value="">Selecione</option>
+              <option>A vista</option>
+              <option>Em 2 vezes</option>
+              <option>Em 3 vezes</option>
+              <option>Em 4 vezes</option>
+              <option>Em 5 vezes</option>
+              <option>Em 6 vezes</option>
+            </select>
+      </div>
+
+      <div>
+        <button class="buttonform" type="submit" onsubmit="Concluído">Concluído</button> 
+      </div>
+        
+    </fieldset>
+    </form>
+  
+<div>
+      <button class="red" type="submit"><a href="index.html">Voltar</a></button> 
+</div>
+  </section>
+</body>
+</html>

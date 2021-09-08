@@ -1,0 +1,71 @@
+.cursos{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #121212; 
+}
+
+.cursos > span{
+    font-size: 2rem;
+    color: #e63d3d;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cursos > h3{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.cursos > .cursos-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width: 641px){
+    .cursos > .cursos-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;   }
+}
+ 
+.cursos > .cursos-container .cursos-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+.cursos > .cursos-container .cursos-badge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    background-color: #e63d3d;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.cursos > .cursos-container .cursos-item h4{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.imagem{
+    width: 3rem;
+}
